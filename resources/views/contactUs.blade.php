@@ -15,11 +15,12 @@
     <header>
         <div class="links">
             <a href="{{route('home')}}"> HOME </a>
+            <a href="{{route('links')}}"> Links </a>
             <a href="{{route('map')}}"> MAP </a>
         </div>
     </header>
     <div class="">
-        <form action="">
+        <form action="" class="padding">
             <div> <label for="name"> Name <br> <input type="text" name="name"></label> </div>
             <div> <label for="Surname"> Cognome <br> <input type="text" name="surname"></label> </div>
             <div> <label for="email"> Email <br> <input type="text" name="email"></label> </div>

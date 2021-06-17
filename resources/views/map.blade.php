@@ -17,6 +17,8 @@
     <header>
         <div class="links">
             <a href="{{route('home')}}"> HOME </a>
+            <a href="{{route('links')}}"> Links </a>
+            <a href="{{route('contactUs')}}"> CONTACT US </a>
         </div>
     </header>
     <div class="flex-center position-ref full-height">

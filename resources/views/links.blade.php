@@ -18,8 +18,12 @@
         <div class="links">
             <a href="{{route('home')}}"> HOME </a>
             <a href="{{route('map')}}"> MAP </a>
+            <a href="{{route('contactUs')}}"> CONTACT US </a>
         </div>
     </header>
+    <div class="flex-center">
+        <img src="{{asset('img/links.jpg')}}" alt="">
+    </div>
 </body>
 
 </html>
