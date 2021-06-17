@@ -9,28 +9,14 @@
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css">
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-    <header>
-        <div class="links">
-            <a href="{{route('links')}}">Links</a>
-
-        </div>
-    </header>
-    <div class="flex-center position-ref full-height">
-        <div class="content">
-            <div class="title m-b-md">
-                Hello world!
-            </div>
-            <div class="links">
-                {{$name }} {{ $surname}}
-            </div>
-        </div>
-    </div>
+    <a href="{{route('home')}}"> HOME </a>
 </body>
 
 </html>

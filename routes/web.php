@@ -18,5 +18,17 @@ Route::get('/', function () {
         "name" => "Salvatore",
         "surname" => "Butera"
     ]);
-});
+})->name("home");
 
+Route::get('/links', function () {
+    return view('links', [
+        "name" => "Salvatore",
+        "surname" => "Butera"
+    ]);
+})->name("links") ;
+Route::get('/links', function () {
+    return view('links', [
+        "name" => "Salvatore",
+        "surname" => "Butera"
+    ]);
+})->name("links") ;
