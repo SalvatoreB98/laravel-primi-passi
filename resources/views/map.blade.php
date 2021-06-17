@@ -9,7 +9,6 @@
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css">
 </head>
@@ -17,20 +16,11 @@
 <body>
     <header>
         <div class="links">
-            <a href="{{route('links')}}"> Links </a>
-            <a href="{{route('map')}}"> MAP </a>
-            <a href="{{route('contactUs')}}"> CONTACT US </a>
+            <a href="{{route('home')}}"> HOME </a>
         </div>
     </header>
     <div class="flex-center position-ref full-height">
-        <div class="content">
-            <div class="title m-b-md">
-                Hello world!
-            </div>
-            <div class="links">
-                {{$name }} {{ $surname}}
-            </div>
-        </div>
+    <img src="{{asset('img/map.png')}}" alt="">
     </div>
 </body>
 

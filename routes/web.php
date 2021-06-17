@@ -21,14 +21,13 @@ Route::get('/', function () {
 })->name("home");
 
 Route::get('/links', function () {
-    return view('links', [
-        "name" => "Salvatore",
-        "surname" => "Butera"
-    ]);
+    return view('links');
 })->name("links") ;
-Route::get('/links', function () {
-    return view('links', [
-        "name" => "Salvatore",
-        "surname" => "Butera"
-    ]);
-})->name("links") ;
+
+Route::get('/mappa', function () {
+    return view('map');
+})->name("map") ;
+
+Route::get('/contattaci', function () {
+    return view('contactUs');
+})->name("contactUs") ;

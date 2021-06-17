@@ -4,12 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <title>Hello world</title>
-
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css">
 </head>
@@ -17,20 +14,18 @@
 <body>
     <header>
         <div class="links">
-            <a href="{{route('links')}}"> Links </a>
+            <a href="{{route('home')}}"> HOME </a>
             <a href="{{route('map')}}"> MAP </a>
-            <a href="{{route('contactUs')}}"> CONTACT US </a>
         </div>
     </header>
-    <div class="flex-center position-ref full-height">
-        <div class="content">
-            <div class="title m-b-md">
-                Hello world!
-            </div>
-            <div class="links">
-                {{$name }} {{ $surname}}
-            </div>
-        </div>
+    <div class="">
+        <form action="">
+            <div> <label for="name"> Name <br> <input type="text" name="name"></label> </div>
+            <div> <label for="Surname"> Cognome <br> <input type="text" name="surname"></label> </div>
+            <div> <label for="email"> Email <br> <input type="text" name="email"></label> </div>
+            <div> <label for="name"> Messaggio <br> <input type="text-area" name="message" rows="4" cols="50"></label> </div>
+            <input type="submit" value="Submit">
+        </form>
     </div>
 </body>
 

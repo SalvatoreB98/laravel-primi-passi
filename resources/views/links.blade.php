@@ -9,14 +9,17 @@
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css">
-
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-    <a href="{{route('home')}}"> HOME </a>
+    <header>
+        <div class="links">
+            <a href="{{route('home')}}"> HOME </a>
+            <a href="{{route('map')}}"> MAP </a>
+        </div>
+    </header>
 </body>
 
 </html>
